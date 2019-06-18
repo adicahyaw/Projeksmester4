@@ -17,7 +17,7 @@
                 android:id="@+id/imgCar"
                 android:layout_width="match_parent"
                 android:layout_height="190sp"
-                android:background="@color/white"
+                android:background="@color/colorText"
                 android:layout_marginBottom="10dp"/>
 
             <TextView
@@ -32,7 +32,7 @@
                 android:layout_marginBottom="10sp"
                 android:textStyle="bold"
                 android:typeface="sans"
-                android:layout_alignParentEnd="true" />
+                android:layout_alignParentBottom="true" />//parentend
 
             <LinearLayout
                 android:layout_below="@+id/carName"
@@ -58,7 +58,7 @@
                             android:layout_width="15sp"
                             android:layout_height="15sp"
                             android:layout_marginRight="10sp"
-                            android:src="@drawable/ic_action_event" />
+                            android:src="@drawable/mobil" />
 
                         <TextView
                             android:id="@+id/year"
@@ -80,7 +80,7 @@
                             android:layout_width="15sp"
                             android:layout_height="15sp"
                             android:layout_marginRight="10sp"
-                            android:src="@drawable/ic_action_cc_bcc" />
+                            android:src="@drawable/man" />
 
                         <TextView
                             android:id="@+id/capacity"
@@ -96,7 +96,7 @@
                 <View
                     android:layout_width="0.8dp"
                     android:layout_height="match_parent"
-                    android:background="@color/grey_bg"
+                    android:background="@color/colorText"
                     />
 
 
@@ -118,7 +118,7 @@
                             android:layout_width="15sp"
                             android:layout_height="15sp"
                             android:layout_marginRight="10sp"
-                            android:src="@drawable/ic_action_event" />
+                            android:src="@drawable/mobil" />
 
                         <TextView
                             android:id="@+id/color"
@@ -140,7 +140,7 @@
                             android:layout_width="15sp"
                             android:layout_height="15sp"
                             android:layout_marginRight="10sp"
-                            android:src="@drawable/ic_action_event" />
+                            android:src="@drawable/mobil" />
 
                         <TextView
                             android:id="@+id/bensin"
@@ -164,9 +164,9 @@
                     android:id="@+id/status"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/round"
+                    android:background="@drawable/mobil"
                     android:text="Tersedia"
-                    android:textColor="@color/white"
+                    android:textColor="@color/colorText"
                     android:textSize="12sp" />
 
             </LinearLayout>
@@ -180,12 +180,12 @@
                 android:padding="5sp"
                 android:text="Rp. 100.000"
                 android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="@color/colorText"
                 android:textSize="14sp"
                 android:layout_marginRight="5dp"
                 android:layout_marginTop="5dp"
                 android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true" />
+                android:layout_alignParentBottom="true" />//end
         </RelativeLayout>
     </android.support.v7.widget.CardView>
 </LinearLayout>
