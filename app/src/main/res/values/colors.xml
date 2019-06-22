@@ -8,4 +8,10 @@
     <color name="colorPrimary2">#1984b4</color>
     <color name="colorHitam">#000000</color>
     <color name="blue">#073DF8</color>
+    <color name="clrPrimary">#3F51B5</color>
+    <color name="clrPrimaryDark">#292b3d</color>
+    <color name="gryLight">#fafafa</color>
+    <color name="strtBlue">#09c6df</color>
+    <color name="endBlue">#0bcce6</color>
+    <color name="clrAccent">#FF4081</color>
 </resources>

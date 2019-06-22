@@ -15,4 +15,16 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="ubah_profil">Ubah Profil</string>
+    <string name="your_name">Your Name</string>
+    <string name="pp">pp</string>
+    <string name="_100">100</string>
+    <string name="gmail_com">gmail.com</string>
+    <string name="jl_pahlawan_kaliwates_jember">Jl.Pahlawan Kaliwates Jember</string>
+    <string name="todo">TODO</string>
+    <string name="no_ktp">No. Ktp</string>
+    <string name="qq">qq</string>
+    <string name="_321">321</string>
+    <string name="rr">rr</string>
+    <string name="_123">123</string>
 </resources>
