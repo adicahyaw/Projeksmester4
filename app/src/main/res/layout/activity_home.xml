@@ -189,6 +189,7 @@
         android:layout_height="wrap_content">
 
         <android.support.v7.widget.CardView
+            android:id="@+id/supir"
             android:layout_width="160dp"
             app:cardCornerRadius="8dp"
             app:cardElevation="2dp"
@@ -221,6 +222,7 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
+            android:id="@+id/riwayat"
             android:layout_width="160dp"
             app:cardCornerRadius="8dp"
             app:cardElevation="2dp"

@@ -14,4 +14,8 @@
     <color name="strtBlue">#09c6df</color>
     <color name="endBlue">#0bcce6</color>
     <color name="clrAccent">#FF4081</color>
+    <color name="biru">#1999D7</color>
+    <color name="grey_bg">#ffffff</color>
+    <color name="white">#ffffff</color>
+
 </resources>

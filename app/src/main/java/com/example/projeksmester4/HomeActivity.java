@@ -13,8 +13,9 @@ import android.widget.ViewFlipper;
 
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener{
     private SessionHandler session;
-    private CardView transaksiku;
+    private CardView transaksiku, mobil, supir;
     ViewFlipper v_flipper;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,12 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         int images[] = {R.drawable.v_mobil,R.drawable.v_mobil1,R.drawable.v_mobil2,R.drawable.v_mobil3,R.drawable.v_mobil4};
 
         v_flipper = findViewById(R.id.v_flipper);
+
+        mobil = (CardView) findViewById(R.id.mobilpinjam);
+        supir = (CardView) findViewById(R.id.supir);
+
+        mobil.setOnClickListener(this);
+        supir.setOnClickListener(this);
 
         for(int image:images){
             flipperImages(image);
@@ -56,8 +63,11 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         Intent i ;
 
         switch (v.getId()) {
-            case R.id.pinjam : i = new Intent(this,LoginActivity.class);startActivity(i); break ;
+            case R.id.pinjam : i = new Intent(this,LoginActivity.class);startActivity(i); break;
+            case R.id.mobilpinjam : i = new Intent(this,Cars.class);startActivity(i); break;
+            case R.id.supir : i = new Intent(this,Supir.class);startActivity(i); break;
             default:break ;
+
         }
 
     }
