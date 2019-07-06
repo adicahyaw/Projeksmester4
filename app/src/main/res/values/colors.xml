@@ -17,5 +17,9 @@
     <color name="biru">#1999D7</color>
     <color name="grey_bg">#ffffff</color>
     <color name="white">#ffffff</color>
+    <color name="marker_secondary">#EE792A</color>
+    <color name="putih">#FFFFFF</color>
+    <color name="nliveo_orange_colorPrimaryDark">#F57C00</color>
+    <color name="Tex">#404547</color>
 
 </resources>
