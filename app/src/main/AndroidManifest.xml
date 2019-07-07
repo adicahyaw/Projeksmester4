@@ -30,7 +30,8 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".DashboardActivity" />
         <activity android:name=".Cars" />
-        <activity android:name=".Supir" />
+        <activity android:name=".DaftarSupir" />
+        <activity android:name=".ListSupir" />
     </application>
 
 </manifest>

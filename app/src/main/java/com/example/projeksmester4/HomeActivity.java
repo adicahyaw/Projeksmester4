@@ -65,7 +65,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.pinjam : i = new Intent(this,LoginActivity.class);startActivity(i); break;
             case R.id.mobilpinjam : i = new Intent(this,Cars.class);startActivity(i); break;
-            case R.id.supir : i = new Intent(this,Supir.class);startActivity(i); break;
+            case R.id.supir : i = new Intent(this,DaftarSupir.class);startActivity(i); break;
             default:break ;
 
         }

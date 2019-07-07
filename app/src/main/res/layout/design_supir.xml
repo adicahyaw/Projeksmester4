@@ -17,12 +17,12 @@
                 android:id="@+id/imgCar"
                 android:layout_width="match_parent"
                 android:layout_height="190sp"
-                android:background="@color/white"
-                android:layout_marginBottom="10dp"/>
+                android:layout_marginBottom="10dp"
+                android:background="@color/white" />
 
             <TextView
                 android:layout_below="@+id/imgCar"
-                android:id="@+id/carName"
+                android:id="@+id/nama_supir"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Nama Supir"
@@ -34,9 +34,13 @@
                 android:typeface="sans"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true" />
+            <TextView
+                android:id="@+id/id_supir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
 
             <LinearLayout
-                android:layout_below="@+id/carName"
+                android:layout_below="@+id/nama_supir"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -61,7 +65,7 @@
                             android:layout_marginRight="10sp" />
 
                         <TextView
-                            android:id="@+id/year"
+                            android:id="@+id/umur"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="23 tahun"
@@ -82,7 +86,7 @@
                             android:layout_marginRight="10sp" />
 
                         <TextView
-                            android:id="@+id/capacity"
+                            android:id="@+id/alamat"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Jalan Bla Bla Bla"
@@ -119,7 +123,7 @@
                             android:layout_marginRight="10sp" />
 
                         <TextView
-                            android:id="@+id/color"
+                            android:id="@+id/jk"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Laki Laki"
@@ -140,7 +144,7 @@
                             android:layout_marginRight="10sp" />
 
                         <TextView
-                            android:id="@+id/bensin"
+                            android:id="@+id/noHp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="08291238941823"
