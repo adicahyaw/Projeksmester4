@@ -11,6 +11,10 @@ import android.widget.TextView;
 import com.example.projeksmester4.Model.SupirModel;
 import com.example.projeksmester4.R;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> b85cc30052f50f7889e609519f4936e8b06c8cd5
 import java.util.ArrayList;
 
 public class SupirAdapter extends ArrayAdapter<SupirModel> {

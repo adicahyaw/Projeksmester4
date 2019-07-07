@@ -13,8 +13,8 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.projeksmester4.API.ApiService;
 import com.example.projeksmester4.Adapter.SupirAdapter;
-import com.example.projeksmester4.Api.ApiService;
 import com.example.projeksmester4.Model.SupirModel;
 
 import java.util.ArrayList;
@@ -25,8 +25,6 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-
-
 
 public class DaftarSupir extends AppCompatActivity implements AdapterView.OnItemClickListener {
 

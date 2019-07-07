@@ -37,7 +37,11 @@ public class SupirModel {
     public static final String alamat_supir = "ID_SUPIR";
     public static final String hp_supir= "ID_SUPIR";
 
+<<<<<<< HEAD
     public SupirModel(String id, String nama, String kel, String usi, String alama, String h) {
+=======
+    public SupirModel(String id, String nama, String kel,String usi,String alama,String h) {
+>>>>>>> b85cc30052f50f7889e609519f4936e8b06c8cd5
         this.idSupir = id;
         this.namaSupir = nama;
         this.kelaminSupir = kel;
