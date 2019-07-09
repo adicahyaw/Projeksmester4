@@ -1,13 +1,11 @@
 package com.example.projeksmester4;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.ViewFlipper;
 
 
@@ -52,7 +50,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
 
         //view flipper
-        int images[] = {R.drawable.v_mobil,R.drawable.v_mobil1,R.drawable.v_mobil2,R.drawable.v_mobil3,R.drawable.v_mobil4};
+        int images[] = {R.drawable.v_mobil, R.drawable.v_mobil1, R.drawable.v_mobil2, R.drawable.v_mobil3, R.drawable.v_mobil4};
 
         v_flipper = findViewById(R.id.v_flipper);
 
@@ -93,9 +91,14 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         Intent i ;
 
         switch (v.getId()) {
+<<<<<<< HEAD
+            case R.id.pinjam : i = new Intent(this, LoginActivity.class);startActivity(i); break;
+            case R.id.mobilpinjam : i = new Intent(this, Cars.class);startActivity(i); break;
+=======
             case R.id.pinjam : i = new Intent(this,LoginActivity.class);startActivity(i); break;
             case R.id.mobilpinjam : i = new Intent(this,Cars.class);startActivity(i); break;
-            case R.id.supir : i = new Intent(this,Supir.class);startActivity(i); break;
+>>>>>>> b85cc30052f50f7889e609519f4936e8b06c8cd5
+            case R.id.supir : i = new Intent(this,DaftarSupir.class);startActivity(i); break;
             default:break ;
 
         }

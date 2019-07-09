@@ -16,6 +16,8 @@
         <activity android:name=".ContactActivity"></activity>
         <activity android:name=".ProfilActivity" />
         <activity android:name=".LoginActivity" />
+        <activity android:name=".splash"/>
+
         <activity
             android:name=".HomeActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -27,12 +29,19 @@
             </intent-filter>
         </activity>
         <activity
+
             android:name=".RegisterActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".DashboardActivity" />
         <activity android:name=".Cars" />
+<<<<<<< HEAD
         <activity android:name=".Supir" />
+        <!--<activity android:name=".DaftarMahasiswa" />-->
+=======
+        <activity android:name=".DaftarSupir" />
+        <activity android:name=".ListSupir" />
+>>>>>>> b85cc30052f50f7889e609519f4936e8b06c8cd5
     </application>
 
 </manifest>
