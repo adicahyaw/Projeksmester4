@@ -6,8 +6,12 @@
         android:icon="@drawable/home"
         android:title="@string/title_home" />
     <item
-        android:id="@+id/nav_akun"
+        android:id="@+id/nav_contact_us"
+        android:icon="@drawable/ic_phone_in_talk_black_24dp"
+        android:title="Contact_us" />
+    <item
+        android:id="@+id/nav_profil"
         android:icon="@drawable/akun"
-        android:title="Akun" />
+        android:title="Profil" />
 
 </menu>

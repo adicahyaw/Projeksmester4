@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="405dp">
         <LinearLayout
-            android:background="@drawable/gradientbckground"
+            android:background="@drawable/bg"
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:orientation="vertical">
@@ -52,13 +52,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/pp"
-                        android:textSize="20sp"
+                        android:text="Riwayat Sewa"
+                        android:textSize="10sp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/_123"
+                        android:text="3x"
                         android:textStyle="bold"
                         android:paddingTop="10dp"
                         android:textColor="@color/strtBlue"/>
@@ -71,13 +71,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/qq"
-                        android:textSize="20sp"
+                        android:text="Status Sewa"
+                        android:textSize="10sp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/_100"
+                        android:text="1"
                         android:textStyle="bold"
                         android:paddingTop="10dp"
                         android:textColor="@color/strtBlue"/>
@@ -90,13 +90,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/rr"
-                        android:textSize="20sp"
+                        android:text="Status Pembayaran"
+                        android:textSize="10sp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/_321"
+                        android:text="Lunas"
                         android:textStyle="bold"
                         android:paddingTop="10dp"
                         android:textColor="@color/strtBlue"/>
@@ -187,7 +187,7 @@
             <ImageView
                 android:layout_width="36dp"
                 android:layout_height="36dp"
-                app:srcCompat="@drawable/ic_location_on_black_24dp" />
+                app:srcCompat="@drawable/ic_place_black_24dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -201,7 +201,7 @@
 
     <Button
         android:textColor="#fff"
-        android:background="@drawable/buttonstyleitgradient"
+        android:background="@color/colorPrimary2"
         android:layout_marginTop="35dp"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"

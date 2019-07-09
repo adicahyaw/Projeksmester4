@@ -21,6 +21,36 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        Button nav_contact_us=(Button) findViewById(R.id.nav_contact_us);
+        nav_contact_us.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View argo) {
+
+                //TODO Auto-generarated method stub
+
+                Intent i=new Intent(getApplicationContext(), ContactActivity.class);
+                startActivity(i);
+
+            }
+        });
+
+        Button nav_profil=(Button) findViewById(R.id.nav_profil);
+        nav_profil.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View argo) {
+
+                //TODO Auto-generarated method stub
+
+                Intent i=new Intent(getApplicationContext(), ProfilActivity.class);
+                startActivity(i);
+
+            }
+        });
+
+
+
+
         //view flipper
         int images[] = {R.drawable.v_mobil,R.drawable.v_mobil1,R.drawable.v_mobil2,R.drawable.v_mobil3,R.drawable.v_mobil4};
 
